@@ -1,0 +1,20 @@
+.pofw-ods-tooltip-popup.ui-tooltip {
+	padding:8px;
+	position:absolute;
+	z-index:9999;
+	-o-box-shadow: 0 0 5px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+/* Fades and background-images don't work well together in IE6, drop the image */
+* html .pofw-ods-tooltip-popup.ui-tooltip {
+	background-image: none;
+}
+body .pofw-ods-tooltip-popup.ui-tooltip { border-width:2px; }
+
+/* Component containers
+----------------------------------*/
+.pofw-ods-tooltip-popup.ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.pofw-ods-tooltip-popup.ui-widget-content { border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #222222/*{fcContent}*/; }
+

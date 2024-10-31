@@ -1,0 +1,18 @@
+
+#woocommerce-product-data ul.wc-tabs li.pofw_ods_product_data_options a::before {content: '\f163';} /* product tab icon*/
+
+.pofw-ods-container {padding: 5px 20px 5px 12px;}
+
+.pofw-ods-container .pofw-ods-option-title {padding: 0;}
+.pofw-ods-container .pofw-ods-option-title .pofw-title {font-weight:bold;}
+.pofw-ods-container .pofw-ods-values {display:table; margin:0 0 10px 7px; border-spacing: 3px; border-collapse: separate;}
+.pofw-ods-container .pofw-ods-values .pofw-ods-value {display:table-row;}
+.pofw-ods-container .pofw-ods-values .pofw-ods-value .pofw-ods-value-title {display:table-cell; padding: 0 7px 0 0; vertical-align: middle;}
+.pofw-ods-container .pofw-ods-values .pofw-ods-value .pofw-ods-value-description {display:table-cell; width:212px; padding:0; vertical-align: middle;}
+
+.pofw-ods-container .pofw-ods-option-note input,
+.pofw-ods-container .pofw-ods-values .pofw-ods-value .pofw-ods-value-description input.pofw-ods-description-input {float:none; width:initial;}
+
+.pofw-ods-container .pofw-ods-showhide-link {margin-left: 3px;color: red;cursor: pointer;}
+.pofw-ods-container .pofw-ods-editor {display:none;}
+

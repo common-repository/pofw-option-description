@@ -1,0 +1,24 @@
+.pofw-ods-tooltip:before {  
+  font: 400 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  content: '\f348';
+  color: #aaaaaa;
+  text-shadow: none;
+  position: relative;  
+  top: 3px;
+}
+
+.options-list .choice label .pofw-ods-tooltip {margin-left:3px;}
+
+.pofw-ods-tooltip .pofw-ods-tooltip-descr{
+  display:none;
+}
+
+.pofw-ods-tooltip-popup {
+  max-width:450px;
+}
+
+.pofw-ods-tooltip-popup.ui-widget-content a {
+  text-decoration: underline;
+  color:#07C;
+}
